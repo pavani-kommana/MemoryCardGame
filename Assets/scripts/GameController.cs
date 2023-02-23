@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
+    [SerializeField]
+    private Sprite bgImage;
     public List<Button> btn = new List<Button> ();
     // Start is called before the first frame update
 
